@@ -1,0 +1,117 @@
+@import "../components/variables";
+
+// start portfolio_section
+.portfolio_section {
+  padding: 80px 0;
+
+  .head {
+    text-align: center;
+
+    .subtitle {
+      color: $primary-color;
+      padding: 4px 18px;
+      background-color: $trans-primary-color;
+      font-weight: 600;
+      width: fit-content;
+      margin: auto;
+      border-radius: 4px;
+      margin-bottom: 10px;
+    }
+
+    .title {
+      font-size: 40px;
+      font-weight: 700;
+    }
+  }
+
+  .boxs {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+    gap: 30px;
+
+    .box {
+      height: 420px;
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-position: center;
+      position: relative;
+      border-radius: 12px;
+      overflow: hidden;
+
+      .text {
+        position: absolute;
+        left: 20px;
+        bottom: 20px;
+
+        .tages {
+          display: flex;
+          align-items: center;
+          gap: 15px;
+          margin-bottom: 10px;
+
+          .tage {
+            color: white;
+            font-weight: 600;
+            padding: 3px 10px;
+            font-size: 15px;
+            background: rgba(255, 255, 255, 0.35);
+            border-radius: 16px;
+            box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+            backdrop-filter: blur(3.9px);
+            -webkit-backdrop-filter: blur(3.9px);
+            border: 1px solid rgba(255, 255, 255, 0.35);
+          }
+        }
+
+        .title {
+          font-size: 25px;
+          font-weight: 700;
+          color: white;
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 768px) {
+  .portfolio_section {
+    padding: 40px 0;
+
+    .head {
+      .subtitle {
+        font-size: 15px;
+        margin-bottom: 5px;
+        padding: 4px 10px;
+      }
+
+      .title {
+        font-size: 22px;
+      }
+    }
+
+    .boxs {
+      grid-template-columns: repeat(auto-fill, minmax(230px, 1fr));
+      gap: 20px;
+
+      .box {
+        height: 320px;
+
+        .text {
+          .tages {
+            margin-bottom: 5px;
+            .tage {
+              padding: 2px 9px;
+              font-size: 13px;
+            }
+          }
+
+          .title {
+            font-size: 22px;
+            margin-bottom: 0;
+          }
+        }
+      }
+    }
+  }
+}
+// end portfolio_section
