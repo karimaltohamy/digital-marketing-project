@@ -15,6 +15,7 @@
     <!-- bootstarp -->
     <link rel="stylesheet" href="css/bootstrap.css" />
     <script src="js/bootstrap.js"></script>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
   </head>
   <body>
     <!-- start header -->
@@ -22,7 +23,7 @@
       <div class="container">
         <div class="line">
           <div class="logo">
-            <img src="images/logo.png" alt="logo" />
+            <img src="images/logo.PNG" alt="logo" />
           </div>
           <div class="info">
             <div class="links">
@@ -163,11 +164,21 @@
       <div class="container">
         <div class="head">
           <div class="row">
-            <div class="col-12 col-md-6">
+            <div
+              class="col-12 col-md-6"
+              data-aos="fade-up"
+              data-aos-duration="800"
+              data-aos-delay="300"
+            >
               <span class="subtitle">TOP QUALITY</span>
               <h3 class="title">Gain more profit by using our SEO tools</h3>
             </div>
-            <div class="col-12 col-md-6">
+            <div
+              class="col-12 col-md-6"
+              data-aos="fade-down"
+              data-aos-duration="800"
+              data-aos-delay="500"
+            >
               <p class="desc">
                 Adipiscing elit, sed do euismod tempor incidunt ut labore et
                 dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
@@ -181,7 +192,12 @@
           </div>
         </div>
         <div class="boxs">
-          <div class="box">
+          <div
+            class="box"
+            data-aos="fade-left"
+            data-aos-duration="800"
+            data-aos-delay="300"
+          >
             <div class="icon">
               <img src="./images/data-analysis.png" alt="icon" loading="lazy" />
             </div>
@@ -190,7 +206,12 @@
               data analysis
             </h4>
           </div>
-          <div class="box">
+          <div
+            class="box"
+            data-aos="fade-left"
+            data-aos-duration="800"
+            data-aos-delay="600"
+          >
             <div class="icon">
               <img src="./images/solution.png" alt="icon" loading="lazy" />
             </div>
@@ -199,7 +220,12 @@
               search tools
             </h4>
           </div>
-          <div class="box">
+          <div
+            class="box"
+            data-aos="fade-left"
+            data-aos-duration="800"
+            data-aos-delay="900"
+          >
             <div class="icon">
               <img src="./images/trust.png" alt="icon" loading="lazy" />
             </div>
@@ -208,7 +234,12 @@
               ideas & designs
             </h4>
           </div>
-          <div class="box">
+          <div
+            class="box"
+            data-aos="fade-left"
+            data-aos-duration="800"
+            data-aos-delay="1200"
+          >
             <div class="icon">
               <img src="./images/promotion.png" alt="icon" loading="lazy" />
             </div>
@@ -226,7 +257,12 @@
     <div class="about_us_section">
       <div class="container">
         <div class="line line_section">
-          <div class="text">
+          <div
+            class="text"
+            data-aos="fade-left"
+            data-aos-duration="800"
+            data-aos-delay="500"
+          >
             <div class="subtitle">CREATIVE AGENCY</div>
             <h3 class="title">We develop great digital future</h3>
             <p class="desc">
@@ -486,7 +522,12 @@
               </div>
             </div>
           </div>
-          <div class="image">
+          <div
+            class="image"
+            data-aos="zoom-in"
+            data-aos-duration="800"
+            data-aos-delay="900"
+          >
             <img
               src="./images/about-img.jpg"
               alt="marketing-agency"
@@ -501,34 +542,59 @@
     <!-- start our team -->
     <div class="our_team_section">
       <div class="container">
-        <div class="head text-center">
+        <div
+          class="head text-center"
+          data-aos="fade-up"
+          data-aos-duration="800"
+          data-aos-delay="500"
+        >
           <span class="subtitle">Our Team</span>
           <h4 class="title">Meet our team of expert</h4>
         </div>
 
         <div class="boxs">
-          <div class="box">
+          <div
+            class="box"
+            data-aos="zoom-in"
+            data-aos-duration="800"
+            data-aos-delay="300"
+          >
             <div class="image">
               <img src="./images/team-1.webp" alt="team" loading="lazy" />
             </div>
             <h4>Danny Russell</h4>
             <span>Founder & CEO</span>
           </div>
-          <div class="box">
+          <div
+            class="box"
+            data-aos="zoom-in"
+            data-aos-duration="800"
+            data-aos-delay="600"
+          >
             <div class="image">
               <img src="./images/team-2.webp" alt="team" loading="lazy" />
             </div>
             <h4>Ezekiel Pearce</h4>
             <span>Founder & CEO</span>
           </div>
-          <div class="box">
+          <div
+            class="box"
+            data-aos="zoom-in"
+            data-aos-duration="800"
+            data-aos-delay="900"
+          >
             <div class="image">
               <img src="./images/team-3.webp" alt="team" loading="lazy" />
             </div>
             <h4>Byron Conner</h4>
             <span>Founder & CEO</span>
           </div>
-          <div class="box">
+          <div
+            class="box"
+            data-aos="zoom-in"
+            data-aos-duration="800"
+            data-aos-delay="1200"
+          >
             <div class="image">
               <img src="./images/team-4.webp" alt="team" loading="lazy" />
             </div>
@@ -616,5 +682,11 @@
       </div>
     </footer>
     <!-- end footer -->
+
+    <script src="js/main.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
   </body>
 </html>

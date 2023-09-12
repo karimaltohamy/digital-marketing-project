@@ -15,7 +15,7 @@ header {
 
     .logo {
       img {
-        width: 135px;
+        width: 80px;
       }
     }
 
@@ -37,9 +37,7 @@ header {
 
           &:hover,
           &.active {
-            background: $primary-color;
-            -webkit-background-clip: text !important;
-            -webkit-text-fill-color: transparent !important;
+            color: $primary-color !important;
           }
         }
       }
@@ -82,7 +80,7 @@ header {
     .line {
       .logo {
         img {
-          width: 100px;
+          width: 70px;
         }
       }
 
@@ -131,6 +129,8 @@ header {
 
     .content {
       text-align: center;
+      position: relative;
+      z-index: 100;
 
       .links {
         font-size: 18px;

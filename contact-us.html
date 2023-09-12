@@ -15,6 +15,8 @@
     <!-- bootstarp -->
     <link rel="stylesheet" href="css/bootstrap.css" />
     <script src="js/bootstrap.js"></script>
+
+    <!-- aos -->
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
   </head>
   <body>
@@ -30,9 +32,9 @@
               <a href="index.html" class="link">Home</a>
               <a href="about-us.html" class="link">who are we</a>
               <a href="our-services.html" class="link">Our Services</a>
-              <a href="Portfolio.html" class="link active">Portfolio</a>
+              <a href="Portfolio.html" class="link">Portfolio</a>
               <a href="blog.html" class="link">Blog</a>
-              <a href="contact-us.html" class="link">Contact</a>
+              <a href="contact-us.html" class="link active">Contact</a>
             </div>
 
             <div class="lang">
@@ -81,9 +83,9 @@
         <a href="index.html" class="link">Home</a>
         <a href="about-us.html" class="link">who are we</a>
         <a href="our-services.html" class="link">Our Services</a>
-        <a href="Portfolio.html" class="link active">Portfolio</a>
+        <a href="Portfolio.html" class="link">Portfolio</a>
         <a href="blog.html" class="link">Blog</a>
-        <a href="contact-us.html" class="link">Contact</a>
+        <a href="contact-us.html" class="link active">Contact</a>
       </div>
     </div>
     <!-- end menu mobile -->
@@ -92,11 +94,10 @@
     <div class="main_head">
       <div class="container">
         <div class="content">
-          <h1>project Details</h1>
+          <h1>Contact Us</h1>
           <p class="links">
             <a href="index.html">Home</a> /
-            <a href="portfolio.html">Portfolio</a> /
-            <a href="project-details.html">Project Details</a>
+            <a href="contact-us.html">Contact Us</a>
           </p>
         </div>
       </div>
@@ -160,92 +161,117 @@
     </div>
     <!-- end main head -->
 
-    <!-- start project details section -->
-    <div class="project_details_section">
+    <!-- start boxs contact -->
+    <div class="boxs_contact">
+      <div class="container">
+        <div class="head text-center">
+          <div class="subtitle">Get In Touch</div>
+          <h3 class="title">We’re Here To Help You Any Time</h3>
+          <p class="desc">Mauris purus cursus feugiat nunc sodales nisl.</p>
+        </div>
+        <div class="boxs">
+          <a
+            href="#"
+            class="box aos-init aos-animate"
+            data-aos="fade-right"
+            data-aos-duration="800"
+            data-aos-delay="300"
+          >
+            <div class="icon">
+              <img src="./images/map.png" alt="contact" loading="lazy" />
+            </div>
+            <h3>Office Location:</h3>
+            <p>121 King St, Melbourne VIC 3000, Australia</p>
+          </a>
+          <a
+            href="#"
+            class="box aos-init aos-animate"
+            data-aos="fade-right"
+            data-aos-duration="800"
+            data-aos-delay="600"
+          >
+            <div class="icon">
+              <img src="./images/call.png" alt="contact" loading="lazy" />
+            </div>
+            <h3>Connect With Phone:</h3>
+            <p>+1 (888) 1234-5678</p>
+          </a>
+          <a
+            href="#"
+            class="box aos-init aos-animate"
+            data-aos="fade-right"
+            data-aos-duration="800"
+            data-aos-delay="900"
+          >
+            <div class="icon">
+              <img src="./images/message.png" alt="contact" loading="lazy" />
+            </div>
+            <h3>Connect With Email:</h3>
+            <p>info@example.com</p>
+          </a>
+        </div>
+      </div>
+    </div>
+    <!-- end boxs contact -->
+
+    <!-- start contact sectionn -->
+    <div class="contact_section">
       <div class="container">
         <div class="line">
-          <div class="project_details_info">
-            <div class="items">
-              <div class="item">
-                <h4>Client</h4>
-                <span>projects</span>
+          <div
+            class="left"
+            data-aos="fade-right"
+            data-aos-duration="500"
+            data-aos-delay="900"
+          >
+            <form action="">
+              <h4>Get in Touch</h4>
+              <p>
+                Give us a call or drop by anytime, we endeavour to answer all
+                enquiries within 24 hours.
+              </p>
+              <div class="row">
+                <div class="col-12 col-md-6">
+                  <input type="text" placeholder="First Name" />
+                </div>
+                <div class="col-12 col-md-6">
+                  <input type="text" placeholder="Last Name" />
+                </div>
+                <div class="col-12 col-md-6">
+                  <input type="text" placeholder="Email Address" />
+                </div>
+                <div class="col-12 col-md-6">
+                  <input type="text" placeholder="Your Subject" />
+                </div>
+                <div class="col-12 col-md-12">
+                  <textarea placeholder="How we help you"></textarea>
+                </div>
               </div>
-              <div class="item">
-                <h4>Date</h4>
-                <span>March, 2023</span>
-              </div>
-              <div class="item">
-                <h4>Author</h4>
-                <span>John Miles</span>
-              </div>
-            </div>
+              <button class="btn_send">Send Message</button>
+            </form>
           </div>
-
-          <div class="project_details_content">
-            <div class="image">
-              <img
-                src="./images/protfolio-img1.webp"
-                alt="portfolio"
-                loading="lazy"
-              />
+          <div
+            class="right"
+            data-aos="fade-left"
+            data-aos-duration="800"
+            data-aos-delay="900"
+          >
+            <div class="map">
+              <iframe
+                frameborder="0"
+                scrolling="no"
+                marginheight="0"
+                marginwidth="0"
+                src="https://maps.google.com/maps?q=London%20Eye%2C%20London%2C%20United%20Kingdom&amp;t=m&amp;z=10&amp;output=embed&amp;iwloc=near"
+                title="London Eye, London, United Kingdom"
+                aria-label="London Eye, London, United Kingdom"
+              ></iframe>
             </div>
-            <h3 class="main_title">Smart research</h3>
-            <p class="desc">
-              Dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit
-              aspernatur aut odit aut fugit, sed quia.
-            </p>
-            <p class="desc">
-              Dicta sunt explicabo. Adipiscing elit sed do eiusmod tempor
-              incididunt ut labore et dolore magna aliqua.
-            </p>
-            <div class="images">
-              <div class="img">
-                <img
-                  src="./images/protfolio-img2.webp"
-                  alt="portfolio"
-                  loading="lazy"
-                />
-              </div>
-              <div class="img">
-                <img
-                  src="./images/protfolio-img3.jpg"
-                  alt="portfolio"
-                  loading="lazy"
-                />
-              </div>
-            </div>
-            <p class="desc">
-              Dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit
-              aspernatur aut odit aut fugit, sed quia. Nemo enim ipsam
-              voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed
-              quia. Dicta sunt explicabo. Adipiscing elit, sed do eiusmod tempor
-              incididunt ut labore et dolore magna aliqua. Ut enim ad veniam
-              quis nostrud exercitation enim ullamco. Nemo magna ipsam
-              Voluptatem Quia Voluptas.
-            </p>
-            <p class="desc">
-              Dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit
-              aspernatur aut odit aut fugit, sed quia. Nemo enim ipsam
-              voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed
-              quia.
-            </p>
-            <h4 class="secound_title">Excepteur sint occaecat</h4>
-            <p class="desc">
-              Dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit
-              aspernatur aut odit aut fugit, sed dolore sed do magna quia.
-            </p>
-            <h4 class="secound_title">Tempor incidunt</h4>
-            <p class="desc">
-              Dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit
-              aspernatur aut odit aut fugit, sed quia. Nemo enim ipsam
-              voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed
-              quia.
-            </p>
           </div>
         </div>
       </div>
     </div>
-    <!-- end project details section -->
+    <!-- end contact sectionn -->
 
     <!-- start footer -->
     <footer>
